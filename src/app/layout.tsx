@@ -9,11 +9,7 @@ import Providers from "@/partials/Providers";
 import "@/styles/main.css";
 import { GoogleTagManager } from "@next/third-parties/google";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   // import google font css
   const pf = theme.fonts.font_family.primary;
   const sf = theme.fonts.font_family.secondary;
@@ -56,20 +52,24 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href={`https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
-            }&display=swap`}
+          href={`https://fonts.googleapis.com/css2?family=${pf}${
+            sf ? "&family=" + sf : ""
+          }&display=swap`}
           rel="stylesheet"
         />
       </head>
 
       {/* body */}
-      <body suppressHydrationWarning={true}>
+      <body
+        suppressHydrationWarning={true}
+        className="min-h-screen flex flex-col"
+      >
         <TwSizeIndicator />
         <Providers>
           <Announcement />
           <Header />
           <SearchModal />
-          <main>{children}</main>
+          <main className="grow">{children}</main>
           <Footer />
         </Providers>
       </body>
