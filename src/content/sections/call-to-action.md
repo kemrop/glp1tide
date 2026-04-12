@@ -6,5 +6,5 @@ description: "Experience the future of web development with Nextplate and Next. 
 button:
   enable: true
   label: "Fork Deploy and Edit Online 🚀"
-  link: "https://app.sitepins.com/new/clone?name=Nextplate&repository=https://github.com/zeon-studio/nextplate/"
+  link: "https://app.sitepins.com/new/clone?name=Nextplate&repository=https://github.com/zeon-studio/nextplate?aff=nextplate"
 ---

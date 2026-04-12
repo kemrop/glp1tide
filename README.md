@@ -93,13 +93,13 @@ docker run -p 3000:3000 nextplate
 
 ## 📝 Edit Content with CMS
 
-This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+This template comes pre-configured with [**Sitepins**](https://sitepins.com?aff=nextplate), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
 
 **How to get started:**
 
 Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
 
-  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Nextplate&repository=https://github.com/zeon-studio/nextplate/">
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Nextplate&repository=https://github.com/zeon-studio/nextplate?aff=nextplate">
     <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
   </a>
 
