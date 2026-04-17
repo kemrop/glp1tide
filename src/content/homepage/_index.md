@@ -5,7 +5,7 @@ banner:
   content: "GLP1tide is built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
   image: "/images/banner.png"
   button:
-    enable: true
+    enable: false
     label: "Fork Deploy and Edit Online 🚀"
     link: "https://github.com/kemrop/glp1tide"
 
@@ -34,7 +34,7 @@ features:
       - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
       - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/kemrop/glp1tide"
 
