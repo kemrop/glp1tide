@@ -9,7 +9,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: ${{ vars.AZURE_WEBAPP_NAME }}
   ACR_LOGIN_SERVER: ${{ vars.ACR_LOGIN_SERVER }}
-  IMAGE_NAME: nextplate
+  IMAGE_NAME: glp1tide
 
 jobs:
   build-and-deploy:

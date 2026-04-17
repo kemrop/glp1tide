@@ -2,18 +2,18 @@
 # Banner
 banner:
   title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  content: "GLP1tide is built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
   image: "/images/banner.png"
   button:
     enable: true
     label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Nextplate&repository=https://github.com/zeon-studio/nextplate?aff=nextplate"
+    link: "https://github.com/kemrop/glp1tide"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "What's Included in GLP1tide"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "GLP1tide is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in GLP1tide"
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -36,7 +36,7 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      link: "https://github.com/kemrop/glp1tide"
 
   - title: "The Top Reasons to Choose Next for Your Next Project"
     image: "/images/service-3.png"

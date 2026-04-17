@@ -32,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* favicon */}
         <link rel="shortcut icon" href={config.site.favicon} />
         {/* theme meta */}
-        <meta name="theme-name" content="nextplate" />
+        <meta name="theme-name" content="glp1tide" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="theme-color"

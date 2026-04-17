@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "GLP1tide",
+    "base_url": "https://glp1tide.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_text": "GLP1tide"
   },
 
   "settings": {
@@ -25,7 +25,7 @@
 
   "announcement": {
     "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Nextplate? <a class='underline' href='https://github.com/zeon-studio/nextplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
+    "content": "<span class='text-center block'>♥️ Loving GLP1tide? <a class='underline' href='https://github.com/kemrop/glp1tide' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
     "expire_days": 7
   },
 
@@ -37,7 +37,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Github",
-    "link": "https://github.com/zeon-studio/nextplate"
+    "link": "https://github.com/kemrop/glp1tide"
   },
 
   "google_tag_manager": {
