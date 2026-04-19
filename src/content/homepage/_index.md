@@ -1,14 +1,4 @@
 ---
-# Banner
-banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "GLP1tide is built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
-  image: "/images/banner.png"
-  button:
-    enable: false
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://github.com/kemrop/glp1tide"
-
 # Features
 features:
   - title: "What's Included in GLP1tide"
