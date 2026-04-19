@@ -14,57 +14,15 @@ const Home = () => {
   const callToAction = getListPage("sections/call-to-action.md");
   const { frontmatter } = homepage;
   const {
-    banner,
     features,
   }: {
-    banner: { title: string; image: string; content?: string; button?: Button };
     features: Feature[];
   } = frontmatter;
 
   return (
     <>
-      <SeoMeta />
-      <section className="section pt-14">
-        <div className="container">
-          <div className="row justify-center">
-            <div className="lg:col-7 md:col-9 mb-8 text-center">
-              <h1
-                className="mb-4 text-h3 lg:text-h1"
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
-              <p
-                className="mb-8"
-                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
-              />
-              {banner.button!.enable && (
-                <Link
-                  className="btn btn-primary"
-                  href={banner.button!.link}
-                  target={
-                    banner.button!.link.startsWith("http") ? "_blank" : "_self"
-                  }
-                  rel="noopener"
-                >
-                  {banner.button!.label}
-                </Link>
-              )}
-            </div>
-            {banner.image && (
-              <div className="col-12">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="800"
-                  height="420"
-                  alt="banner image"
-                  priority
-                />
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
-
+    <SeoMeta />
+    <Testimonials data={testimonial} />
       {features.map((feature, index: number) => (
         <section
           key={index}
@@ -93,7 +51,7 @@ const Home = () => {
                   className="mb-4"
                   dangerouslySetInnerHTML={markdownify(feature.title)}
                 />
-                <p
+                <blockquote
                   className="mb-8 text-lg"
                   dangerouslySetInnerHTML={markdownify(feature.content)}
                 />
@@ -118,8 +76,6 @@ const Home = () => {
           </div>
         </section>
       ))}
-
-      <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
     </>
   );
