@@ -24,21 +24,6 @@
 </p>
 
 ## 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-- 🌏 Multilingual Support (i18n)
-
-
 - 🏠 Homepage
 - 👤 About
 - 📞 Contact
@@ -47,7 +32,6 @@
 - 📝 Blog
 - 📝 Blog Single
 - 🚫 Custom 404
-- 💡 Elements
 - 📄 Privacy Policy
 - 🏷️ Tags
 - 🏷️ Tag Single

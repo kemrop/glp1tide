@@ -1,8 +1,8 @@
 {
   "name": "glp1tide",
   "version": "5.6.2",
-  "description": "Nextjs and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "description": "Glp1Tide",
+  "author": "mark.rop",
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "scripts": {

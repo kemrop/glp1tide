@@ -63,11 +63,13 @@ const Testimonials = ({ data }: { data: PageData }) => {
                     (item: Testimonial, index: number) => (
                       <SwiperSlide key={index}>
                         <div className="rounded-2xl border border-slate-200 bg-white px-7 py-10 shadow-md">
-                          <div className="text-slate-800">
-                          </div>
+                          <div className="text-slate-800"></div>
                           <blockquote
                             className="mt-8 text-slate-700"
-                            dangerouslySetInnerHTML={markdownify(item.content, true)}
+                            dangerouslySetInnerHTML={markdownify(
+                              item.content,
+                              true,
+                            )}
                           />
                           <div className="mt-11 flex items-center">
                             <div className="text-slate-800">

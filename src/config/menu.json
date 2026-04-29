@@ -9,10 +9,6 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
@@ -45,10 +41,6 @@
     }
   ],
   "footer": [
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"

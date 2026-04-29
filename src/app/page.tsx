@@ -21,8 +21,8 @@ const Home = () => {
 
   return (
     <>
-    <SeoMeta />
-    <Testimonials data={testimonial} />
+      <SeoMeta />
+      <Testimonials data={testimonial} />
       {features.map((feature, index: number) => (
         <section
           key={index}
